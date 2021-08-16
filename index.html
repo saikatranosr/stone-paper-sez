@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title></title>
+</head>
+<body>
+<div id="screen">
+    <div id="scoreBox">
+        <div class="score">
+            <div class="name">You</div>
+            <div id="yourScore">0</div>
+        </div>
+        <div class="roundC">
+            <div class="roundT">Round</div>
+            <div id="round">0/10</div>
+        </div>
+        <div class="score">
+            <div class="name">Saikat</div>
+            <div id="botScore">0</div>
+        </div>
+    </div>
+    <div id="board">
+        <div class="boardEmoji" id="yourEmoji">&#9995;</div>
+        <div class="boardEmoji" id="botEmoji">&#9996;</div>
+    </div>
+    <div id="cantrol">
+        <div class="cantrol" id="stone">
+          <div class="emoji">&#9994;</div>
+          <div class="text">Stone</div>
+            </div>
+        <div class="cantrol" id="paper">
+              <div class="emoji">&#9995;</div>
+          <div class="text">Paper</div>
+        </div>
+        <div class="cantrol" id="sez">
+              <div class="emoji">&#9996;</div>
+          <div class="text">Seissors</div>
+        </div>
+    </div>
+</div>
+
+<!-- Alert -->
+<div id="alertScrn">
+    <div class="alertBox">
+        <div id="alrt">This is a sample alert</div>
+        <button id="myclose" class="btn" onclick="myAlert.close()">Play Again</button>
+    </div>
+</div>
+  <script src="js/index.js"></script>
+</body>
+</html>
