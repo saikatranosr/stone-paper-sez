@@ -1,3 +1,11 @@
+/*
+Author: Saikat Rano;
+Date: 15 Aug 2021;
+email: saikatranosr@gmail.com
+GitHub: guthub.com/saikatranosr
+Hosted on: saikatranosr.github.io/stone-paper-sez
+*/
+
 //game Variables
 let lifes = 10
 let play = 0; //How many times I've played out of $maxPlay
