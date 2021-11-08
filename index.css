@@ -131,7 +131,7 @@ body{
     background-image: 
     linear-gradient(#ff0060, magenta);
     transition: 0.1s;
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
 }
 #close:active{
     transform: scale(.7);
